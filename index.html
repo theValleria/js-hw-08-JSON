@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Таблиця студентів</h1>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Ім'я</th>
+                    <th>Прізвище</th>
+                    <th>Вік</th>
+                    <th>Курс</th>
+                    <th> </th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+
+        <div class="addForm">
+            <h2>Додати студента</h2>
+            <form id="studentForm">
+                <div>
+                    <label for="firstName">Ім'я:</label>
+                    <input type="text" id="name">
+                </div>
+                <div>
+                    <label for="surname">Прізвище:</label>
+                    <input type="text" id="surname">
+                </div>
+                <div>
+                    <label for="age">Вік:</label>
+                    <input type="number" id="age">
+                </div>
+                <div>
+                    <label for="course">Курс:</label>
+                    <input type="number" id="course">
+                </div>
+                <button type="submit" class="add-student">Додати студента</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
